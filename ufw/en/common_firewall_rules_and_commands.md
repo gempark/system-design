@@ -94,6 +94,65 @@ sudo ufw delete 1
 
 ## List Available Application Profiles
 
-Continue ...
+```bash
+sudo ufw app list
+```
+```
+Available applications:
+  OpenSSH
+```
+
+## Enable Application Profile
+
+```bash
+sudo ufw allow "OpenSSH"
+```
+```
+Rule added
+Rule added (v6)
+```
+
+## Disable Application Profile
+
+List all profiles
+
+```bash
+sudo ufw status
+```
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                               
+Nginx Full                 ALLOW       Anywhere                  
+OpenSSH (v6)               ALLOW       Anywhere (v6)                   
+Nginx Full (v6)            ALLOW       Anywhere (v6)  
+```
+
+```bash
+sudo ufw allow "Nginx HTTPS"
+sudo ufw delete allow "Nginx Full"
+```
+
+## Allow MySQL Connection from Specific IP Address or Subnet
+
+```bash
+sudo ufw allow from 203.0.113.103 to any port 3306
+```
+
+```bash
+sudo ufw allow from 203.0.113.0/24 to any port 3306
+```
+
+## Allow PostgreSQL Connection from Specific IP Address or Subnet
+
+```bash
+sudo ufw allow from 203.0.113.103 to any port 5432
+```
+
+```bash
+sudo ufw allow from 203.0.113.0/24 to any port 5432
+```
 
 [Back to home](../../README.md)
