@@ -1,3 +1,5 @@
+[Back to home](../../README.md)
+
 # Phần 2: Làm quen lệnh quản trị Redis cơ bản
 
 ## MONITOR
@@ -146,3 +148,5 @@ GET TUANDA1	1231
 GET TUANDA	123
 GET TUANDA2	1232
 ```
+
+[Back to home](../../README.md)

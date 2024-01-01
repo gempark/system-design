@@ -1,3 +1,5 @@
+[Back to home](../../README.md)
+
 # Phần 1: Cài đặt redis cơ bản + Turning redis.
 
 ## 1.1 Cài đặt:
@@ -131,3 +133,5 @@ Cách 2: Thay trong config
 vim /opt/redis/conf/6379.conf
 maxclients 100000
 ```
+
+[Back to home](../../README.md)

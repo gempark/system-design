@@ -1,3 +1,5 @@
+[Back to home](../../README.md)
+
 # Phần 3: Bảo mật cho Redis. (Redis security)
 
 Trên thế giới, có rất nhiều vụ Redis phơi port ra ngoài bị chiếm quyền điều khiển để cài miner, hoặc xóa sạch dữ liệu Redis, thay đổi dữ liệu để trục lợi. Vì vậy ta luôn sẵn tinh thần bảo mật cho Redis:
@@ -176,3 +178,5 @@ Ngoài ra , để bảo mật Redis còn có các đề nghị sau đây:
 - Bật TLS giữa client và redis-server.
 
 Phần sau, tôi sẽ hướng dẫn bạn một cách khác là dùng ACL để khóa các command nguy hiểm này
+
+[Back to home](../../README.md)
