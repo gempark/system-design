@@ -5,6 +5,8 @@ System design tutorials (Redis + MySQL/PostgreSQL/MongoDB + RabbitMQ/Kafka + Loa
 ...
 
 ## 2/ Redis
+
+### 2.1/ Redis architecture diagrams
 1. [Install and tuning](redis/vi/1_install_and_tuning.md)
 2. [Redis basic commands](redis/vi/2_redis_basic_commands.md)
 3. [Redis security](redis/vi/3_redis_security.md)
@@ -20,7 +22,13 @@ Ref:
 - https://vnsys.wordpress.com/
 
 ## 3/ MySQL
-1. How To Set Up Replication in MySQL
+
+### 3.1/ MySQL performance tuning
+- [Oracle guides](https://www.oracle.com/technetwork/community/developer-day/mysql-performance-tuning-403029.pdf)
+- [Percona guides](https://www.percona.com/sites/default/files/mysql_performance_tuning.pdf) 
+
+### 3.2/ MySQL architecture diagrams
+...
 
 ## System design resources
 - [System Design Newsletter](https://newsletter.systemdesign.one/)
