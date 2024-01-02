@@ -4,13 +4,16 @@ System design tutorials (Redis + MySQL/PostgreSQL/MongoDB + RabbitMQ/Kafka)
 ## UFW (Linux firewall)
 - [UFW Essentials: Common Firewall Rules and Commands](ufw/en/common_firewall_rules_and_commands.md)
 
+## HAProxy
+...
+
 ## Redis
 1. [Install and tuning](redis/vi/1_install_and_tuning.md)
 2. [Redis basic commands](redis/vi/2_redis_basic_commands.md)
 3. [Redis security](redis/vi/3_redis_security.md)
 4. [Redis ACL](redis/vi/4_redis_acl.md)
 5. [Redis architecture diagrams](redis/vi/5_redis_architecture_diagrams.md)
-6.
+6. [Redis master-slave with ACL](redis/vi/6_redis_master_slave_with_acl.md)
 7.
 8.
 9.
