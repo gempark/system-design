@@ -30,6 +30,13 @@ Ref:
 ### 3.2/ MySQL architecture diagrams
 ...
 
+## 4/ ElasticSearch
+
+### 4.1/ ElasticSearch architecture diagrams
+- [Install Elasticsearch + Kibana 8.x with Self-Signed SSL](https://www.youtube.com/watch?v=OYS0hzPDgp4)
+- [Install Elasticsearch + Kibana 8.x with TLS/SSL](https://www.youtube.com/watch?v=HOmq3STxAKg)
+- [Setup Elasticsearch Cluster + Kibana 8.x](https://www.youtube.com/watch?v=TfhcJXdNSdI)
+
 ## System design resources
 - [System Design Newsletter](https://newsletter.systemdesign.one/)
 - [Quastor](https://blog.quastor.org/)
