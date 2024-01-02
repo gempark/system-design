@@ -2,6 +2,8 @@
 
 # Phần 6: Redis Master-Slave sử dụng ACL
 
+![Master many slaves](../img/master-many-slaves.webp "Master many slaves")
+
 Mô hình:
 - Master: 192.168.88.12 Port 6379
 - Slave:  192.168.88.13 Port 6379
