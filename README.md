@@ -9,7 +9,7 @@ System design tutorials (Redis + MySQL/PostgreSQL/MongoDB + RabbitMQ/Kafka)
 2. [Redis basic commands](redis/vi/2_redis_basic_commands.md)
 3. [Redis security](redis/vi/3_redis_security.md)
 4. [Redis ACL](redis/vi/4_redis_acl.md)
-5. 
+5. [Redis architecture diagrams](redis/vi/5_redis_architecture_diagrams.md)
 6.
 7.
 8.

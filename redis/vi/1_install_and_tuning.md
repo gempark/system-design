@@ -1,6 +1,6 @@
 [Back to home](../../README.md)
 
-# Phần 1: Cài đặt redis cơ bản + Turning redis.
+# Phần 1: Cài đặt redis cơ bản + Tuning redis.
 
 ## 1.1 Cài đặt:
 
