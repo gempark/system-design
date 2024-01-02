@@ -18,4 +18,11 @@ System design tutorials (Redis + MySQL/PostgreSQL/MongoDB + RabbitMQ/Kafka)
 Ref: https://viblo.asia/p/phan-1-cai-dat-redis-co-ban-turning-redis-bWrZnADYKxw
 
 ## MySQL
-...
+1. How To Set Up Replication in MySQL
+
+## System design resources
+- [System Design Newsletter](https://newsletter.systemdesign.one/)
+- [Quastor](https://blog.quastor.org/)
+- [ByteByteGo Newsletter](https://blog.bytebytego.com/)
+- [Byte-Sized Design](https://substack.com/@bytesizeddesign)
+- [The Polymathic Engineer](https://newsletter.francofernando.com/)
