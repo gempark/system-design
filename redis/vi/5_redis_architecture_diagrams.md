@@ -34,21 +34,21 @@ Phân biệt:
 
 Nhược điểm: 
 - Khi Master chết, phải cấu hình thủ công Slave lên làm Master. Và phải tự động chuyển luồng cho client gọi vào M mới.
-- Tối ưu hơn, ta có thể có mô hình Setinel tự động detect Master down và đẩy Slave node khác lên làm Master ở mục C.
+- Tối ưu hơn, ta có thể có mô hình Sentinel tự động detect Master down và đẩy Slave node khác lên làm Master ở mục C.
 - Vẫn sẽ có độ trễ về đồng bộ thông tin từ M > S. Ví dụ ta HMSET hàng triệu key có độ dài lớn vào M.
 
-## 3. Mô hình SETINEL
+## 3. Mô hình SENTINEL
 
-![Setinel](../img/setinel.webp "Setinel")
+![Sentinel](../img/sentinel.webp "Sentinel")
 
 Ưu điểm:
-- Mô hình Setinel đã tối ưu ở việc "bầu chọn" đâu sẽ là Master node khi có node bị chết
+- Mô hình Sentinel đã tối ưu ở việc "bầu chọn" đâu sẽ là Master node khi có node bị chết
 - Nhưng app không biết đâu là Master mới để gọi vào khi Master bị thay đổi. 
 Để khắc phục vấn đề này, các siêu nhân khác đã đưa ra phương án dùng HA-Proxy để phát hiện và lái luồng TCP về redis master. 
-Hoặc dùng thư viện client sẵn có (như java jedis) có thể tự detect được đâu là M trong khối Setinel (không cần cài HAProxy)
+Hoặc dùng thư viện client sẵn có (như java jedis) có thể tự detect được đâu là M trong khối Sentinel (không cần cài HAProxy)
 
 Nhược điểm:
-- Cần nhiều tài nguyên (cần ít nhất là 3 node để tránh bị tình trạng bầu chọn không đồng đều, các slave-setinel tự nhận mình là master - hiện tượng Split-Brain)
+- Cần nhiều tài nguyên (cần ít nhất là 3 node để tránh bị tình trạng bầu chọn không đồng đều, các slave-sentinel tự nhận mình là master - hiện tượng Split-Brain)
 
 ## 4. Mô hình SHARDING CLUSTER
 
